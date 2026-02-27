@@ -1,0 +1,59 @@
+.expense-card {
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.expense-card:hover {
+  transform: translateY(-5px);
+}
+
+.expense-card h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.expense-card h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Row 1 Colors */
+.expense-card.yearly {
+  background: linear-gradient(135deg, #cad9e4, #2980b9); /* Blue gradient */
+}
+
+.expense-card.daily {
+  background: linear-gradient(135deg, #eccfb5, #d35400); /* Orange gradient */
+}
+
+.expense-card.monthly {
+  background: linear-gradient(135deg, #d7e6dd, #27ae60); /* Green gradient */
+}
+
+/* Row 2 Gradients */
+.expense-card.food {
+  background: linear-gradient(135deg, #cec0d4, #6e1794); /* Purple gradient */
+}
+
+.expense-card.travel {
+  background: linear-gradient(135deg, #d4ccac, #b97404); /* Yellow gradient */
+  color: black; /* text visible on yellow gradient */
+}
+
+.expense-card.shopping {
+  background: linear-gradient(135deg, #d697ac, #8d093e); /* Pink gradient */
+}
+
+.expense-card.others {
+  background: linear-gradient(135deg, #dbe4e6, #035a64); /* Cyan gradient */
+}
