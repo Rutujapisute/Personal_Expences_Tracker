@@ -1,0 +1,13 @@
+create tables 
+
+1)users
+
+CREATE TABLE users (
+    uid SERIAL PRIMARY KEY,
+    uname VARCHAR(50),
+    email VARCHAR(100),
+    password VARCHAR(255)
+);
+
+2)categories
+create table categories(cid serial primary key,cname varchar(20))
